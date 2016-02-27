@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>14</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>28</y>
+      <w>588</w>
+      <h>882</h>
+    </coordinates>
+    <panel_attributes>OrderPanel
+--
+_- gradeTotal: double_
+_- orderTotal: double_
+_- orderNumber: int_
+- lengthInMeters:double
+- diameterInInches: double
+- gradInput: int
+- finalQuantity: int
+- chemical: boolean
+- outerReinforcement: boolean 
+- innerInsulation: boolean 
+- colourInput: int
+- prices: ArrayList&lt;double&gt;
+- currentOrderTotal: ArrayList&lt;double&gt;
+- quote: double
+- df: DecimalFormat
+_- error: boolean_
+_- wrongChar: boolean_
+--
++ OrderPanel()
+- zeroColourRadioButtonActionPerformed(evt, ActionEvent)
+- pipeGradeComboBoxActionPerformed(evt, ActionEvent)
+- innerInsulationCheckBoxActionPerformed(evt, ActionEvent)
+- submitButtonActionPerformed(evt ActionEvent)
+- oneColourRadioButtonActionPerformed(evt, ActionEvent)
+- twoColourRadioButtonActionPerfromed(evt, ActionEvent)
+- newOrderButtonActionPerformed(evt, ActionEvent)
+- checkoutButtonActionPerformed(evt, ActionEvent)
+- errors()
+- wrongCharInput()
+- colourInputOption()
++ enableInput()
++ disableInput()
+- changeStateComboBox()
+- disableCheckBoxes()
++ createPipe()
++ orderSize(lenght double, diameter double)
++ currentTotal()
++ finalTotal()
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

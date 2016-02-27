@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.3">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>513</y>
+      <w>27</w>
+      <h>261</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;270.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>738</y>
+      <w>1062</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;1160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1224</x>
+      <y>747</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>963</x>
+      <y>747</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>711</x>
+      <y>747</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>459</x>
+      <y>747</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>189</x>
+      <y>747</y>
+      <w>27</w>
+      <h>81</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>504</x>
+      <y>432</y>
+      <w>198</w>
+      <h>45</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=*
+</panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1134</x>
+      <y>810</y>
+      <w>243</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>PipeType5
+--
+- gradePrice: double
+- chemicalresistance: double
+- pipePrice: double
+- colour: double
+- innerInsulation: double
+- outerReinforcement: double
+--
++ pipeType5(grade int, chemical boolean)
++ getAQuote()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>873</x>
+      <y>810</y>
+      <w>243</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>PipeType4
+--
+- gradePrice: double
+- chemicalresistance: double
+- pipePrice: double
+- colour: double
+- innerInsulation: double
+--
++ pipeType4(grade int, chemical boolean)
++ getAQuote()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>612</x>
+      <y>810</y>
+      <w>243</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>PipeType3
+--
+- gradePrice: double
+- chemicalresistance: double
+- pipePrice: double
+- colour: double
+--
++ pipeType3(grade int, chemical boolean)
++ getAQuote()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>351</x>
+      <y>810</y>
+      <w>243</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>PipeType2
+--
+- gradePrice: double
+- chemicalresistance: double
+- pipePrice: double
+- colour: double
+--
++ pipeType2(grade int, chemical boolean)
++ getAQuote()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>81</x>
+      <y>810</y>
+      <w>243</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>PipeType1
+--
+- gradePrice: double
+- chemicalresistance: double
+- pipePrice: double
+--
++ pipeType1(grade int, chemical boolean)
++ getAQuote()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>684</x>
+      <y>405</y>
+      <w>270</w>
+      <h>117</h>
+    </coordinates>
+    <panel_attributes>/Pipe/
+--
+# priceOfGrade: double
+# chemicalResistance: double
+# plasticGrade: double[]
+--
++ pipe()
++ pipe(grade int, chemical boolean)
+/+ getAQuote()/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>243</x>
+      <y>45</y>
+      <w>162</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Main
+--
++ main(Strings args[])</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>315</x>
+      <y>90</y>
+      <w>27</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>792</x>
+      <y>567</y>
+      <w>27</w>
+      <h>207</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>135</x>
+      <y>171</y>
+      <w>378</w>
+      <h>567</h>
+    </coordinates>
+    <panel_attributes>OrderPanel
+--
+_- gradeTotal: double_
+_- orderTotal: double_
+_- orderNumber: int_
+- lengthInMeters:double
+- diameterInInches: double
+- gradInput: int
+- finalQuantity: int
+- chemical: boolean
+- outerReinforcement: boolean 
+- innerInsulation: boolean 
+- colourInput: int
+- prices: ArrayList&lt;double&gt;
+- currentOrderTotal: ArrayList&lt;double&gt;
+- quote: double
+- df: DecimalFormat
+_- error: boolean_
+_- wrongChar: boolean_
+--
++ OrderPanel()
+- zeroColourRadioButtonActionPerformed(evt, ActionEvent)
+- pipeGradeComboBoxActionPerformed(evt, ActionEvent)
+- innerInsulationCheckBoxActionPerformed(evt, ActionEvent)
+- submitButtonActionPerformed(evt ActionEvent)
+- oneColourRadioButtonActionPerformed(evt, ActionEvent)
+- twoColourRadioButtonActionPerfromed(evt, ActionEvent)
+- newOrderButtonActionPerformed(evt, ActionEvent)
+- checkoutButtonActionPerformed(evt, ActionEvent)
+- errors()
+- wrongCharInput()
+- colourInputOption()
++ enableInput()
++ disableInput()
+- changeStateComboBox()
+- disableCheckBoxes()
++ createPipe()
++ orderSize(lenght double, diameter double)
++ currentTotal()
++ finalTotal()
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
